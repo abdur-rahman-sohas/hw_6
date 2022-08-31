@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background: #121B2A;
+	padding: 10px 0;
+}
+.wrapper{
+	/*border: 5px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 15%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-top: 15px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 30px 15px;
+	display: block;
+	color: white;
+	transition: .5s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+color: #0078BD;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../image/jp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	/*min-height: 300px;*/
+}
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+}
+.banner-content p:first-child {
+	color: deepskyblue;
+	font-size: 28px;
+}
+.banner-content h1 {
+	color: black;
+	font-size: 35px;
+	font-family: sans-serif;
+
+}
+.banner-content p:nth-last-child(2) {
+color: white;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.wrapper{
+
+}
+.banner-content{
+
+}
+.banner-content button{
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+color: black;
+font-size: 20px;
+margin-top: 20px;
+background-color: white;
+text-transform: uppercase;
+}
+.banner-content button span{
+	background-color: blue;
+	padding: 1px 6px;
+	border-radius: 50%;
+	color: white;
+	margin-left: ;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding: 50px o;
+}
+.single{
+	border: 1px solid white;
+	width: 30%;
+	padding: 10px 20px;
+}
+.title{
+	overflow: hidden;
+}
+.icon{
+	/*border: 1px solid red;*/
+	width: 25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content{
+	/*border: 1px solid red;*/
+	width: 65%;
+	float: left;
+	margin-top: 5px;
+}
+.icon-content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+.icon-content h2{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+.content{}
+.content p{
+	color: white;
+	line-height: 1.5;
+}
+
+/*service end*/
